@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int number1, number2;
+cout << "Write first number" << endl;
+cout << "number 1";
+cin >> number1;
+cout << "Write second number" << endl;
+cout << "number 2";
+cin >> number2;
+if (number1 == number2) {
+
+cout << "No remainder" << endl;
+
+}
+else {
+    cout << "Remainder" << endl;
+}
+
+return 0;
+}
